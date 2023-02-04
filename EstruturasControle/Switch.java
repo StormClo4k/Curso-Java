@@ -1,9 +1,10 @@
 package EstruturasControle;
 
-public class Switch {
+public class Switch{
     public static void main(String[] args) {
 
-        String faixa = "da";
+        String faixa = "Marrom";
+
         switch(faixa.toLowerCase()){
         case "preta":
             System.out.println("Sei dar mortal!");
@@ -16,6 +17,7 @@ public class Switch {
         case "sem faixa":
             System.out.println("Não sei fazer nada");
         break;
+        //Nao encontrado
         default:
             System.out.println("A faixa informada não existe");
         }
